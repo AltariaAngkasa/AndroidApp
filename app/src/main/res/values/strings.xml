@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Sky Rhea</string>
+
+    <string name="mercury">Mercury is the smallest planet in our solar system and closest to the Sun. It is only slightly larger than Earths Moon and has no atmosphere to retain heat, causing extreme temperatures between day and night.</string>
+
+    <string name="venus">Venus is the second planet from the Sun and has a thick, toxic atmosphere filled with carbon dioxide, and it is perpetually shrouded in thick, yellowish clouds of sulfuric acid. Venus is the hottest planet in our solar system.</string>
+
+    <string name="earth">Earth is the third planet from the Sun and the only astronomical object known to harbor life. It has a moderate atmosphere that supports water, oxygen, and a variety of ecosystems, making it unique among planets.</string>
+
+    <string name="mars">Mars is the fourth planet from the Sun and is known as the Red Planet due to its reddish appearance caused by iron oxide on its surface. It has the largest volcano and canyon in the solar system, and its a prime target for exploration.</string>
+
+    <string name="jupiter">Jupiter is the largest planet in the solar system and the fifth from the Sun. It is a gas giant composed mostly of hydrogen and helium, and it has a famous Great Red Spot, a storm larger than Earth.</string>
+
+    <string name="saturn">Saturn is the sixth planet from the Sun and is famous for its stunning system of icy rings. Its a gas giant like Jupiter, composed primarily of hydrogen and helium, and has over 80 moons.</string>
+
+    <string name="uranus">Uranus is the seventh planet from the Sun and has a blue-green color due to methane in its atmosphere. Unlike other planets, Uranus rotates on its side, possibly due to a collision with an Earth-sized object long ago.</string>
+
+    <string name="neptune">Neptune is the eighth and farthest known planet from the Sun in our solar system. Its a gas giant known for its striking blue color and violent storms, with winds blowing at speeds faster than the speed of sound.</string>
+
+    <string name="pluto">Pluto, once considered the ninth planet, is now classified as a dwarf planet. It resides in the Kuiper Belt, a region of icy bodies beyond Neptune. Pluto has five known moons, and its largest, Charon, is almost half its size.</string>
+
+    <string name="ceres">Ceres is the largest object in the asteroid belt between Mars and Jupiter and is classified as a dwarf planet. It contains a large amount of ice, and some scientists believe it may have once harbored a subsurface ocean.</string>
+
+</resources>
