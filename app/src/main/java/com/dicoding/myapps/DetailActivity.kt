@@ -19,15 +19,25 @@ class DetailActivity : AppCompatActivity() {
             val detailTitle: TextView = findViewById(R.id.detailTitle)
             val detailDesc: TextView = findViewById(R.id.detailDesc)
             val detailImage: ImageView = findViewById(R.id.detailImage)
+            val distance: TextView = findViewById(R.id.distance)
+            val numberOfMoon: TextView = findViewById(R.id.number_of_moon)
+            val planetSize: TextView = findViewById(R.id.planetSize)
+            val orbitPeriod: TextView = findViewById(R.id.orbitPeriod)
 
             // Mengisi data ke views
             detailTitle.text = getData.dataTitle
             detailDesc.text = getData.dataDesc
             detailImage.setImageResource(getData.dataDetailImage)
+
+            // Mengisi informasi tambahan
+            distance.text = getData.distance
+            numberOfMoon.text = getData.numberOfMoons
+            planetSize.text = getData.size
+            orbitPeriod.text = getData.orbitPeriod
         }
 
         // Atur padding untuk window insets
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.mainLayout)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
